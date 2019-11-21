@@ -1,0 +1,12 @@
+-- zad1
+match (a:town{name:"Darjeeling"}), (m:peak{name:"Sandakphu"}) WITH a, m MATCH path = ShortestPath((a)-[relation:trek*..5]-(m)) RETURN path
+
+-- zad2
+match (a:town{name:"Darjeeling"}), (m:peak{name:"Sandakphu"}) WITH a, m MATCH path = ShortestPath((a)-[relation:trek*..5]-(m)) WHERE all(r in relation where r.winter="true")  RETURN path
+
+-- zad3
+match path=(n:town{name:"Darjeeling"})-[relation:twowheeler*1..8]-(m:peak{name:"Sandakphu"}) where all(r in relation where r.summer="true") return m
+
+--test
+
+match p=(a:town{name:"Darjeeling"})-[relation:twowheeler*1..8]-(b) where all(r in relation where r.summer="true") return b
