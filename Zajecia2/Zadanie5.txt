@@ -1,0 +1,28 @@
+abstract class Osoba(val imie: String, val nazwisko: String) {
+      
+  def podatek() : Double // dla studenta 0, dla pracownika 20% pensji
+  
+  
+} 
+
+trait Student extends Osoba{
+  override def podatek() : Double = {
+    return 0
+  }
+}
+
+trait Pracownik extends Osoba{
+  //dodatkowo pensja
+  val pensja: Double
+  
+  def this(val imie: String, val nazwisko: String, val pensja: Double) = { 
+    this.pensja = pensja
+  }
+  override def podatek() : Double = {
+    return
+  }
+}
+
+trait Nauczyciel extends Pracownik {
+  // dla nauczyciela 10% pensji podatek
+}

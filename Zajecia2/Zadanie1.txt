@@ -1,0 +1,24 @@
+def sprawdzDzien(dzienTygodnia: String): String = {
+  dzienTygodnia match {
+    case "Poniedzialek" =>
+      "Praca"
+    case "Wtorek" =>
+      "Praca"
+    case "Sroda" =>
+      "Praca"
+    case "Czwartek" =>
+      "Praca"
+    case "Piatek" =>
+      "Praca"
+    case "Sobota" =>
+      "Weekend"
+    case "Niedziela" =>
+      "Weekend"
+    case default =>
+      "Niepoprawny dzien tygodnia"
+  }
+}
+
+val dzienTygodnia = "Sroda"
+
+println(sprawdzDzien(dzienTygodnia));

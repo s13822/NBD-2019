@@ -1,0 +1,1 @@
+printjson(db.people.aggregate( { "$group": { _id: { "$arrayElemAt": [ "$credit.currency", 0 ] }, _country: { $last: { "nationality" : "Poland"}}, avgBalanceForCountry: { $avg: { $ifNull: [ { "$arrayElemAt": ["$credit.balance", 0] }, 0 ]}}, sumBalanceForCountry: { $sum: { $ifNull: [ { "$arrayElemAt": ["$credit.balance", 0] }, 0 ]}} }}).toArray())

@@ -1,0 +1,18 @@
+var dniTygodnia = List("Poniedzialek", "Wtorek", "Sroda", "Czwartek", "Piatek", "Sobota", "Niedziela")
+
+var num = List(1, 2, 3, 4)
+
+  def recOdPoczatku(ints: List[String]): String = ints match { 
+    case Nil => ""
+    case x :: tail => x + ", "+ recOdPoczatku(tail)
+  }
+
+  def recOdKonca(ints: List[String]): String = ints match { 
+    case Nil => ""
+    case x :: head => x + ", "+ recOdKonca(head)
+  }
+  
+  
+println(recOdPoczatku(dniTygodnia))
+
+println(recOdKonca(dniTygodnia))

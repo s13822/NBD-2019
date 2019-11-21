@@ -1,0 +1,1 @@
+printjson(db.people.aggregate( { "$group": { _id: "$sex", requests: { $sum:1}, averageweight: { $avg: { $ifNull: [ "$weight", 0 ]}}}}).toArray())

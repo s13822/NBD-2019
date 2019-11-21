@@ -1,0 +1,16 @@
+import scala.annotation.tailrec
+
+var dniTygodnia = List("Poniedzialek", "Wtorek", "Sroda", "Czwartek", "Piatek", "Sobota", "Niedziela")
+
+ def dniTygodniaTailRec(list: List[String]): String = {
+    @tailrec
+    def dniTygodniaTailRecAcc(list: List[String], text: String): String = {
+      list match {
+        case Nil => text
+        case x :: tail => dniTygodniaTailRecAcc(tail, text + x + ", ")
+      }
+    }
+    dniTygodniaTailRecAcc(list, "")
+  }
+
+println(dniTygodniaTailRec(dniTygodnia))

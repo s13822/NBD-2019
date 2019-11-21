@@ -1,0 +1,50 @@
+-- zadanie1
+MATCH (movie: Movie) RETURN movie
+
+-- zadanie2
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) RETURN hugo,hugoWeavingMovies
+
+-- zadanie3
+MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:DIRECTED]-(Directors) RETURN Directors.name
+
+-- zadanie4
+MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(coActors) RETURN coActors.name
+
+-- zadanie5
+MATCH (matrix:Movie {title:"The Matrix"})<-[:ACTED_IN]-(Actors) RETURN Actors.name
+
+-- zadanie6
+MATCH (n:Person)-[:ACTED_IN]->(m:Movie) with n.name as name, count(m) as moviecount WHERE moviecount>1 RETURN name, moviecount
+
+-- zadanie7
+MATCH (n:Person)-[:DIRECTED]->(m:Movie)<-[:PRODUCED]-(k:Person) with n.name as personName, m.title as title WHERE k.name = n.name RETURN personName, title
+
+-- zadanie8
+MATCH (n:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(k:Person {name: "Keanu Reeves"}) RETURN n.name, k.name, m.title
+
+-- zadanie9
+--tworzenie
+CREATE (capitanAmerica:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'Steve Rogers, a rejected military soldier transforms into Captain America.'})
+CREATE (HayleyAtwellActor:Person {name:'Hayley Atwell', born:1982})
+CREATE (ChrisEvansActor:Person {name:'Chris Evans', born:1981})
+CREATE (JoeWriter:Person {name:'Joe Simon', born:1913})
+CREATE (JackKWriter:Person {name:'Jack Kirby', born:1917})
+CREATE (KevinFeigeProducer:Person {name:'Kevin Feige', born:1973})
+CREATE (SebastianStanActor:Person {name:'Sebastian Stan', born:1982})
+CREATE (JoeJDirector:Person {name:'Joe Johnston', born:1950})
+CREATE
+  (ChrisMActor)-[:ACTED_IN {roles:['Capitain America']}]->(capitanAmerica),
+  (HayleyAtwellActor)-[:ACTED_IN {roles:['Peggy Carter']}]->(capitanAmerica),
+  (SebastianStanActor)-[:ACTED_IN {roles:['Bucky']}]->(capitanAmerica),
+  (JoeJDirector)-[:DIRECTED]->(capitanAmerica),
+  (KevinFeigeProducer)-[:PRODUCED]->(capitanAmerica),
+  (JackKWriter)-[:WROTE]->(capitanAmerica),
+  (JoeWriter)-[:WROTE]->(capitanAmerica);
+
+--zapytanie:
+MATCH (actor:Person)-[:ACTED_IN]->(movie {title: "Captain America: The First Avenger"})<-[:DIRECTED]-(director:Person) RETURN movie, actor, director
+MATCH (actor:Person)-[:ACTED_IN]->(movie {title: "Captain America: The First Avenger"})<-[:WROTE]-(writer:Person) RETURN movie, actor, writer
+
+
+
+

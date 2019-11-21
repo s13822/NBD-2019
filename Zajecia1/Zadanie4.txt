@@ -1,0 +1,12 @@
+
+var dniTygodnia = List("Poniedzialek", "Wtorek", "Sroda", "Czwartek", "Piatek", "Sobota", "Niedziela")
+
+// a
+println(dniTygodnia.foldLeft("")(_  + _ + ", "))
+
+// b
+println(dniTygodnia.foldRight("")(_ + ", "+ _))
+
+// c
+println(dniTygodnia.filter(_.startsWith("P")).foldLeft("")(_  + _ + ", "))
+

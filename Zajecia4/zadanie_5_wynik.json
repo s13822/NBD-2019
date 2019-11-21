@@ -1,0 +1,1190 @@
+MongoDB shell version v4.2.1
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("4fae565a-dfb0-4d58-99da-6ee8c5611947") }
+MongoDB server version: 4.2.1
+[
+	{
+		"_id" : "LSL",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 3770.07,
+		"sumBalanceForCountry" : 3770.07
+	},
+	{
+		"_id" : "NAD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5244.259999999999,
+		"sumBalanceForCountry" : 15732.779999999999
+	},
+	{
+		"_id" : "MZN",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5998.903333333333,
+		"sumBalanceForCountry" : 17996.71
+	},
+	{
+		"_id" : "ANG",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5429.72,
+		"sumBalanceForCountry" : 5429.72
+	},
+	{
+		"_id" : "KMF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4957.133333333333,
+		"sumBalanceForCountry" : 44614.2
+	},
+	{
+		"_id" : "JMD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5155.057391304347,
+		"sumBalanceForCountry" : 118566.31999999999
+	},
+	{
+		"_id" : "MYR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4923.657727272727,
+		"sumBalanceForCountry" : 216640.94
+	},
+	{
+		"_id" : "NIO",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5064.9037499999995,
+		"sumBalanceForCountry" : 81038.45999999999
+	},
+	{
+		"_id" : "JOD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4808.84923076923,
+		"sumBalanceForCountry" : 62515.04
+	},
+	{
+		"_id" : "CLP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4913.223461538461,
+		"sumBalanceForCountry" : 127743.81
+	},
+	{
+		"_id" : "PYG",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5106.294090909091,
+		"sumBalanceForCountry" : 112338.47
+	},
+	{
+		"_id" : "AZN",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4924.210476190476,
+		"sumBalanceForCountry" : 103408.42
+	},
+	{
+		"_id" : "CHF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5587.685,
+		"sumBalanceForCountry" : 33526.11
+	},
+	{
+		"_id" : "GMD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5036.108,
+		"sumBalanceForCountry" : 50361.08
+	},
+	{
+		"_id" : "TWD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5780.68,
+		"sumBalanceForCountry" : 5780.68
+	},
+	{
+		"_id" : "BTN",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5331.6,
+		"sumBalanceForCountry" : 10663.2
+	},
+	{
+		"_id" : "PAB",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5016.833043478261,
+		"sumBalanceForCountry" : 115387.16
+	},
+	{
+		"_id" : "HTG",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4543.128125,
+		"sumBalanceForCountry" : 72690.05
+	},
+	{
+		"_id" : "NOK",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5007.252419354839,
+		"sumBalanceForCountry" : 310449.65
+	},
+	{
+		"_id" : "IDR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5007.081729678639,
+		"sumBalanceForCountry" : 5297492.47
+	},
+	{
+		"_id" : "LYD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5069.859090909091,
+		"sumBalanceForCountry" : 55768.45
+	},
+	{
+		"_id" : "GYD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4351.166666666667,
+		"sumBalanceForCountry" : 13053.5
+	},
+	{
+		"_id" : "XCD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5379.47625,
+		"sumBalanceForCountry" : 43035.81
+	},
+	{
+		"_id" : "OMR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5048.197999999999,
+		"sumBalanceForCountry" : 25240.989999999998
+	},
+	{
+		"_id" : "MOP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5337.77,
+		"sumBalanceForCountry" : 5337.77
+	},
+	{
+		"_id" : "AED",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5830.69,
+		"sumBalanceForCountry" : 5830.69
+	},
+	{
+		"_id" : "BHD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4242.623333333333,
+		"sumBalanceForCountry" : 12727.869999999999
+	},
+	{
+		"_id" : "BND",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 3891.33,
+		"sumBalanceForCountry" : 7782.66
+	},
+	{
+		"_id" : "HRK",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4658.714222222223,
+		"sumBalanceForCountry" : 209642.14
+	},
+	{
+		"_id" : "SYP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5583.009999999999,
+		"sumBalanceForCountry" : 150741.27
+	},
+	{
+		"_id" : "BSD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5972.956666666666,
+		"sumBalanceForCountry" : 17918.87
+	},
+	{
+		"_id" : "THB",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5031.484014084507,
+		"sumBalanceForCountry" : 714470.73
+	},
+	{
+		"_id" : "LBP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5010.674,
+		"sumBalanceForCountry" : 25053.37
+	},
+	{
+		"_id" : "PHP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5073.300108695653,
+		"sumBalanceForCountry" : 2800461.66
+	},
+	{
+		"_id" : "VND",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4929.0240404040405,
+		"sumBalanceForCountry" : 487973.38
+	},
+	{
+		"_id" : "SOS",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4546.0740000000005,
+		"sumBalanceForCountry" : 22730.370000000003
+	},
+	{
+		"_id" : "RUB",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5045.580104166667,
+		"sumBalanceForCountry" : 2906254.14
+	},
+	{
+		"_id" : "TJS",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5260.219999999999,
+		"sumBalanceForCountry" : 47341.979999999996
+	},
+	{
+		"_id" : "KHR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5203.639,
+		"sumBalanceForCountry" : 52036.39
+	},
+	{
+		"_id" : "ISK",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 3649.0699999999997,
+		"sumBalanceForCountry" : 14596.279999999999
+	},
+	{
+		"_id" : "JPY",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4889.453372093023,
+		"sumBalanceForCountry" : 840985.98
+	},
+	{
+		"_id" : "BOB",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4455.158823529411,
+		"sumBalanceForCountry" : 75737.7
+	},
+	{
+		"_id" : "LKR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4911.453333333334,
+		"sumBalanceForCountry" : 88406.16
+	},
+	{
+		"_id" : "KYD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4713.09,
+		"sumBalanceForCountry" : 4713.09
+	},
+	{
+		"_id" : "SBD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4991.5,
+		"sumBalanceForCountry" : 9983
+	},
+	{
+		"_id" : "MXN",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4964.491714285714,
+		"sumBalanceForCountry" : 521271.63
+	},
+	{
+		"_id" : "ZAR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5118.867419354839,
+		"sumBalanceForCountry" : 317369.77999999997
+	},
+	{
+		"_id" : "USD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4937.939693877551,
+		"sumBalanceForCountry" : 1451754.27
+	},
+	{
+		"_id" : "SAR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5229.332,
+		"sumBalanceForCountry" : 52293.32
+	},
+	{
+		"_id" : "MWK",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4060.3075,
+		"sumBalanceForCountry" : 16241.23
+	},
+	{
+		"_id" : "MUR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4704.292307692308,
+		"sumBalanceForCountry" : 61155.8
+	},
+	{
+		"_id" : "TTD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4768.916666666667,
+		"sumBalanceForCountry" : 14306.75
+	},
+	{
+		"_id" : "INR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5603.77,
+		"sumBalanceForCountry" : 5603.77
+	},
+	{
+		"_id" : "CRC",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5128.981428571428,
+		"sumBalanceForCountry" : 107708.61
+	},
+	{
+		"_id" : "KWD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5162.06,
+		"sumBalanceForCountry" : 30972.36
+	},
+	{
+		"_id" : "SZL",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5254.88,
+		"sumBalanceForCountry" : 21019.52
+	},
+	{
+		"_id" : "PGK",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5119.6033333333335,
+		"sumBalanceForCountry" : 15358.810000000001
+	},
+	{
+		"_id" : "DOP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5186.4115624999995,
+		"sumBalanceForCountry" : 165965.16999999998
+	},
+	{
+		"_id" : "UGX",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5006.2162499999995,
+		"sumBalanceForCountry" : 80099.45999999999
+	},
+	{
+		"_id" : "BIF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5026.0233333333335,
+		"sumBalanceForCountry" : 30156.14
+	},
+	{
+		"_id" : "ILS",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4810.140869565218,
+		"sumBalanceForCountry" : 221266.48
+	},
+	{
+		"_id" : "SLL",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4516.388333333333,
+		"sumBalanceForCountry" : 27098.33
+	},
+	{
+		"_id" : "PKR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4909.292592592592,
+		"sumBalanceForCountry" : 265101.8
+	},
+	{
+		"_id" : "TZS",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4829.356279069768,
+		"sumBalanceForCountry" : 207662.32
+	},
+	{
+		"_id" : "KRW",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5049.409565217391,
+		"sumBalanceForCountry" : 116136.42
+	},
+	{
+		"_id" : "CAD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4870.003687943263,
+		"sumBalanceForCountry" : 686670.52
+	},
+	{
+		"_id" : "XOF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4949.639636363636,
+		"sumBalanceForCountry" : 272230.18
+	},
+	{
+		"_id" : "SDG",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5235.769090909091,
+		"sumBalanceForCountry" : 57593.46
+	},
+	{
+		"_id" : "QAR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 3758.18,
+		"sumBalanceForCountry" : 7516.36
+	},
+	{
+		"_id" : "SCR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4571.69,
+		"sumBalanceForCountry" : 4571.69
+	},
+	{
+		"_id" : "AMD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5261.786111111111,
+		"sumBalanceForCountry" : 189424.3
+	},
+	{
+		"_id" : "DKK",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4546.017333333333,
+		"sumBalanceForCountry" : 68190.26
+	},
+	{
+		"_id" : "BGN",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4875.822631578948,
+		"sumBalanceForCountry" : 185281.26
+	},
+	{
+		"_id" : "CDF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4860.186,
+		"sumBalanceForCountry" : 48601.86
+	},
+	{
+		"_id" : "KZT",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5064.870769230769,
+		"sumBalanceForCountry" : 197529.96
+	},
+	{
+		"_id" : "COP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4998.727769230769,
+		"sumBalanceForCountry" : 649834.61
+	},
+	{
+		"_id" : "XPF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5470.032499999999,
+		"sumBalanceForCountry" : 43760.259999999995
+	},
+	{
+		"_id" : "AUD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4872.717058823529,
+		"sumBalanceForCountry" : 82836.19
+	},
+	{
+		"_id" : "ARS",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4991.948905109489,
+		"sumBalanceForCountry" : 683897
+	},
+	{
+		"_id" : "MGA",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5119.443333333334,
+		"sumBalanceForCountry" : 107508.31
+	},
+	{
+		"_id" : "CUP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4840.615897435897,
+		"sumBalanceForCountry" : 188784.02
+	},
+	{
+		"_id" : "ZMW",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5064.185454545454,
+		"sumBalanceForCountry" : 55706.04
+	},
+	{
+		"_id" : "TND",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5166.2165,
+		"sumBalanceForCountry" : 103324.33
+	},
+	{
+		"_id" : "NGN",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4905.288478260869,
+		"sumBalanceForCountry" : 451286.54
+	},
+	{
+		"_id" : "YER",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4756.793823529411,
+		"sumBalanceForCountry" : 161730.99
+	},
+	{
+		"_id" : "VUV",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 3148.59,
+		"sumBalanceForCountry" : 3148.59
+	},
+	{
+		"_id" : "KGS",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5338.733529411765,
+		"sumBalanceForCountry" : 90758.47
+	},
+	{
+		"_id" : "GTQ",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5089.807567567567,
+		"sumBalanceForCountry" : 188322.88
+	},
+	{
+		"_id" : "PLN",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4995.452732919255,
+		"sumBalanceForCountry" : 1608535.78
+	},
+	{
+		"_id" : "KES",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4834.302857142857,
+		"sumBalanceForCountry" : 101520.36
+	},
+	{
+		"_id" : "UZS",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5140.66,
+		"sumBalanceForCountry" : 113094.52
+	},
+	{
+		"_id" : "CVE",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 6191.16,
+		"sumBalanceForCountry" : 6191.16
+	},
+	{
+		"_id" : "DZD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 6083.1,
+		"sumBalanceForCountry" : 12166.2
+	},
+	{
+		"_id" : "GNF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5656.046666666666,
+		"sumBalanceForCountry" : 16968.14
+	},
+	{
+		"_id" : "CZK",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5081.636089385474,
+		"sumBalanceForCountry" : 909612.86
+	},
+	{
+		"_id" : "NZD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5556.4915,
+		"sumBalanceForCountry" : 111129.83
+	},
+	{
+		"_id" : "BRL",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4935.986559405941,
+		"sumBalanceForCountry" : 1994138.57
+	},
+	{
+		"_id" : "BYR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5114.714871794872,
+		"sumBalanceForCountry" : 199473.88
+	},
+	{
+		"_id" : "IQD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4988.53,
+		"sumBalanceForCountry" : 34919.71
+	},
+	{
+		"_id" : "UAH",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5075.597816091954,
+		"sumBalanceForCountry" : 883154.02
+	},
+	{
+		"_id" : "LAK",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5132.393333333333,
+		"sumBalanceForCountry" : 30794.36
+	},
+	{
+		"_id" : "HUF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4506.342727272727,
+		"sumBalanceForCountry" : 49569.77
+	},
+	{
+		"_id" : "ETB",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5229.071176470588,
+		"sumBalanceForCountry" : 88894.21
+	},
+	{
+		"_id" : "GHS",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5283.51,
+		"sumBalanceForCountry" : 26417.550000000003
+	},
+	{
+		"_id" : "BWP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4649.705,
+		"sumBalanceForCountry" : 46497.05
+	},
+	{
+		"_id" : "XAF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5187.399230769231,
+		"sumBalanceForCountry" : 269744.76
+	},
+	{
+		"_id" : "SRD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4800.03,
+		"sumBalanceForCountry" : 14400.09
+	},
+	{
+		"_id" : "MVR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4690.1825,
+		"sumBalanceForCountry" : 18760.73
+	},
+	{
+		"_id" : "PEN",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4909.228588957055,
+		"sumBalanceForCountry" : 800204.26
+	},
+	{
+		"_id" : "RSD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4931.320545454546,
+		"sumBalanceForCountry" : 271222.63
+	},
+	{
+		"_id" : "WST",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5906.67,
+		"sumBalanceForCountry" : 5906.67
+	},
+	{
+		"_id" : "AOA",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4698.594285714286,
+		"sumBalanceForCountry" : 32890.16
+	},
+	{
+		"_id" : "CNY",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4981.717638580931,
+		"sumBalanceForCountry" : 8987018.62
+	},
+	{
+		"_id" : "IRR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5290.706444444445,
+		"sumBalanceForCountry" : 238081.79
+	},
+	{
+		"_id" : "RON",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5336.17,
+		"sumBalanceForCountry" : 5336.17
+	},
+	{
+		"_id" : "SEK",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5033.719915254237,
+		"sumBalanceForCountry" : 1187957.9
+	},
+	{
+		"_id" : "LRD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4809.196666666667,
+		"sumBalanceForCountry" : 14427.59
+	},
+	{
+		"_id" : "BDT",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5070.830434782609,
+		"sumBalanceForCountry" : 116629.1
+	},
+	{
+		"_id" : "LTL",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5180.183684210527,
+		"sumBalanceForCountry" : 98423.49
+	},
+	{
+		"_id" : "SGD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4280.12,
+		"sumBalanceForCountry" : 8560.24
+	},
+	{
+		"_id" : "MDL",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5141.34,
+		"sumBalanceForCountry" : 82261.44
+	},
+	{
+		"_id" : "GEL",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5462.712857142857,
+		"sumBalanceForCountry" : 38238.99
+	},
+	{
+		"_id" : "SSP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4974.576666666667,
+		"sumBalanceForCountry" : 14923.73
+	},
+	{
+		"_id" : "ALL",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5193.7300000000005,
+		"sumBalanceForCountry" : 223330.39
+	},
+	{
+		"_id" : "RWF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5537.84,
+		"sumBalanceForCountry" : 11075.68
+	},
+	{
+		"_id" : "MRO",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 3957.08,
+		"sumBalanceForCountry" : 3957.08
+	},
+	{
+		"_id" : "TOP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4222.45,
+		"sumBalanceForCountry" : 4222.45
+	},
+	{
+		"_id" : "MNT",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4978.968837209302,
+		"sumBalanceForCountry" : 214095.66
+	},
+	{
+		"_id" : "MAD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4966.885294117647,
+		"sumBalanceForCountry" : 168874.1
+	},
+	{
+		"_id" : "EGP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4868.057674418605,
+		"sumBalanceForCountry" : 209326.48
+	},
+	{
+		"_id" : "VEF",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5037.758333333333,
+		"sumBalanceForCountry" : 181359.3
+	},
+	{
+		"_id" : "TRY",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4914.333333333333,
+		"sumBalanceForCountry" : 14743
+	},
+	{
+		"_id" : "GBP",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5082.419999999999,
+		"sumBalanceForCountry" : 55906.619999999995
+	},
+	{
+		"_id" : "EUR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5013.66213898917,
+		"sumBalanceForCountry" : 5555137.65
+	},
+	{
+		"_id" : "TMT",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4881.564444444444,
+		"sumBalanceForCountry" : 43934.08
+	},
+	{
+		"_id" : "AWG",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 3679.54,
+		"sumBalanceForCountry" : 3679.54
+	},
+	{
+		"_id" : "ERN",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5914.816666666667,
+		"sumBalanceForCountry" : 17744.45
+	},
+	{
+		"_id" : "NPR",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5424.030909090909,
+		"sumBalanceForCountry" : 59664.34
+	},
+	{
+		"_id" : "KPW",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4597.727894736842,
+		"sumBalanceForCountry" : 87356.83
+	},
+	{
+		"_id" : "MKD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4870.56935483871,
+		"sumBalanceForCountry" : 150987.65
+	},
+	{
+		"_id" : "HNL",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5114.1272,
+		"sumBalanceForCountry" : 255706.36
+	},
+	{
+		"_id" : "ZWL",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4785.0470000000005,
+		"sumBalanceForCountry" : 47850.47
+	},
+	{
+		"_id" : "UYU",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4996.182222222222,
+		"sumBalanceForCountry" : 89931.28
+	},
+	{
+		"_id" : "HKD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 6524.05,
+		"sumBalanceForCountry" : 6524.05
+	},
+	{
+		"_id" : "AFN",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5312.2962,
+		"sumBalanceForCountry" : 265614.81
+	},
+	{
+		"_id" : "MMK",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5322.642000000001,
+		"sumBalanceForCountry" : 79839.63
+	},
+	{
+		"_id" : "BAM",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 5140.395217391304,
+		"sumBalanceForCountry" : 118229.09
+	},
+	{
+		"_id" : "BZD",
+		"_country" : {
+			"nationality" : "Poland"
+		},
+		"avgBalanceForCountry" : 4639.255,
+		"sumBalanceForCountry" : 9278.51
+	}
+]

@@ -1,0 +1,37 @@
+var dniTygodnia = List("Poniedzialek", "Wtorek", "Sroda", "Czwartek", "Piatek", "Sobota", "Niedziela")
+
+//dniTygodnia(0)
+var zad1 = ""
+var zad2 = ""
+var i = 0
+for(e <- dniTygodnia){
+  i=i+1
+  if(i < dniTygodnia.length){
+    zad1 = zad1 + e + ","
+    if(e.startsWith("P"))
+      zad2 = zad2 + e + ","
+  }
+  else{
+    zad1 = zad1 + e
+    if(e.startsWith("P"))
+      zad2 = zad2 + e
+  }
+}
+i = 0
+var zad3 = ""
+while(i < dniTygodnia.length){
+  if(i < dniTygodnia.length-1){
+    zad3 = zad3 + dniTygodnia(i) + ","
+  }
+  else{
+    zad3 = zad3 + dniTygodnia(i)
+  }
+  i=i+1
+  
+}
+//zad 1.a
+println(zad1)
+// zad1.b
+println(zad2)
+// zad1.c
+println(zad3)

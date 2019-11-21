@@ -1,0 +1,25 @@
+class BankAccount(var balance:BigDecimal) {
+  this.balance = this.balance.setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble
+  def this() = {
+    this(0)
+  }
+  
+  def showBalance = println(s"Your account's balance is: $balance")
+  
+  def withdraw(amount: BigDecimal) = {
+    this.balance = this.balance - amount
+    println(s"You have $balance money right now.")
+  }
+  def deposit(amount: BigDecimal) = {
+    this.balance = this.balance + amount
+    println(s"You have $balance money right now.")
+  }
+}
+
+val bankAcc = new BankAccount(81.4333)
+
+bankAcc.showBalance
+bankAcc.withdraw(20)
+bankAcc.showBalance
+bankAcc.deposit(51.12)
+bankAcc.showBalance

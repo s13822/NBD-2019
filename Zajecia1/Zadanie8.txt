@@ -1,0 +1,9 @@
+val lista = List(5, 0, 4, 0, 3, 3, 0, 1, 0, 0, 5)
+
+def removeZeroValues[A](list: List[A], current: Option[A] = None): List[A] = (list, current) match {
+  case (x :: xs, Some(y)) if x == 0 => removeZeroValues(xs, Some(x))
+  case (x :: xs, _) => x :: removeZeroValues(xs, Some(x))
+  case _ => Nil
+}
+
+println(removeZeroValues(lista))

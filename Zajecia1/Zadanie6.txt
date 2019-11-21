@@ -1,0 +1,7 @@
+def krotkaFunc(kr: (String, Int, Boolean)): String = kr match { 
+  case (a,b,c) => 
+  "Imie: " + a + ", " +
+  "Wiek: " + b + ", " +
+  "Czy jest pracowity: " + c}
+
+println(krotkaFunc("Adam", 41, true));

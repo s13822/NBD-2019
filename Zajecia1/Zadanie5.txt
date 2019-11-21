@@ -1,0 +1,5 @@
+val produkty = Map("banan" -> 2, "pomarancza" -> 3, "sliwka" -> 1, "Kiwi" -> 2)
+
+var produktyTansze = produkty.map { case (k, v) => k ->  v * 0.9 }
+
+println(produktyTansze)

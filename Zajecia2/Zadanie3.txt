@@ -1,0 +1,65 @@
+class Osoba(var imie:String, var nazwisko:String) {
+  def this() = {
+    this("Imie nieznane", "Nazwisko nieznane")
+  }
+  
+  def pokazInformacje = println(s"Hello $imie $nazwisko")
+  
+  // def withdraw(amount: BigDecimal) = {
+  //   this.balance = this.balance - amount
+  //   println(s"You have $balance money right now.")
+  // }
+  // def deposit(amount: BigDecimal) = {
+  //   this.balance = this.balance + amount
+  //   println(s"You have $balance money right now.")
+  // }
+  
+  def indywidualnePowitanie = {
+  imie match {
+    case "Adam" =>
+      println("Witaj Adam, jestes 55 Adamem, który korzysta z naszego systemu!")
+    case "Karol" =>
+      println("Witaj Karol, milego korzystania z systemu.")
+    case "Marcin" =>
+      println("Hej! Marcin to taki typo fajny")
+    case default =>
+      println("Dzien dobry, witamy w naszym systemie, milego korzystania!")
+  }
+}
+  
+  
+}
+
+def indywidualnePowitaniePozaKlasa(osoba:Osoba) = {
+  osoba.imie match {
+    case "Adam" =>
+      println("Witaj Adam, jestes 55 Adamem, który korzysta z naszego systemu!")
+    case "Karol" =>
+      println("Witaj Karol, milego korzystania z systemu.")
+    case "Marcin" =>
+      println("Hej! Marcin to taki typo fajny")
+    case default =>
+      println("Dzien dobry, witamy w naszym systemie, milego korzystania!")
+  }
+}
+
+
+
+val os1 = new Osoba("Adam", "Berc")
+val os2 = new Osoba("Karol", "Berc")
+val os3 = new Osoba("Witold", "Arac")
+//sprawdzenie osoba 1
+os1.pokazInformacje
+os1.indywidualnePowitanie
+indywidualnePowitaniePozaKlasa(os1)
+
+// sprawdzenie osoba 2
+os2.pokazInformacje
+os2.indywidualnePowitanie
+indywidualnePowitaniePozaKlasa(os2)
+
+// sprawdzenie osoba 3
+os3.pokazInformacje
+os3.indywidualnePowitanie
+indywidualnePowitaniePozaKlasa(os3)
+

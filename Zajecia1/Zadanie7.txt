@@ -1,0 +1,13 @@
+val produkty = Map("banan" -> 2, "pomarancza" -> 3, "sliwka" -> 1, "Kiwi" -> 2)
+
+val przykladOption = Option(produkty.get("banan"))
+// przy wyswietlaniu samego elementu mapy mamy juz odpowiedz zwracana jako option Some(), dlatego jak jeszcze raz to opakujemy to bedziemy mieli Some(Some)
+
+println(przykladOption)
+// jak tutaj mamy nulla to dostaniemy to opakowane w Some()
+println(Option(produkty.get("testtest")))
+// a tu dostaniemy samo None
+println(produkty.get("sdasadsa"))
+
+//przyklad option jako val
+val opt: Option[Int] = Some(40)

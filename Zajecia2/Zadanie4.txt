@@ -1,0 +1,10 @@
+def zwiekszWartosc(wartosc: Integer): Integer = {
+    return wartosc + 1
+}
+
+
+def wykonajTrzyRazy(wartosc: Integer, f: (Integer) => Integer): Integer = {
+  return f(f(f(wartosc)))
+}
+
+println(wykonajTrzyRazy(15, zwiekszWartosc))
