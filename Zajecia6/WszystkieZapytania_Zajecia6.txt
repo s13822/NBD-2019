@@ -7,6 +7,28 @@ match (a:town{name:"Darjeeling"}), (m:peak{name:"Sandakphu"}) WITH a, m MATCH pa
 -- zad3
 match path=(n:town{name:"Darjeeling"})-[relation:twowheeler*1..8]-(m:peak{name:"Sandakphu"}) where all(r in relation where r.summer="true") return m
 
---test
+-- zad4
+match (n:Airport)-[relation:ORIGIN]-(m:Flight)WITH n, count(m) as c RETURN n, c ORDER BY c DESC
 
-match p=(a:town{name:"Darjeeling"})-[relation:twowheeler*1..8]-(b) where all(r in relation where r.summer="true") return b
+-- zad5
+
+match path=(:Airport{name:"LAX"})-[*1..7]-(dest:Airport) with *, nodes(path) as n unwind n as pathNode match (ticket:Ticket{class:"economy"})-[:ASSIGN]-(pathNode) with dest, n,collect(ticket) as tickets, sum(ticket.price) as price where price<3000 return distinct dest
+
+-- zad6
+
+match path=(:Airport{name:"LAX"})-[*1..7]-(dest:Airport{name:"DAY"}) with *, nodes(path) as n unwind n as pathNode match (ticket:Ticket{class:"economy"})-[:ASSIGN]-(pathNode) with dest, n,collect(ticket) as tickets, sum(ticket.price) as price return distinct *
+
+-- zad7
+
+match path=(:Airport{name:"LAX"})-[*1..7]-(dest:Airport{name:"DAY"}) with *, nodes(path) as n unwind n as pathNode match (ticket:Ticket{class:"economy"})-[:ASSIGN]-(pathNode) with dest, n,collect(ticket) as tickets, sum(ticket.price) as price return MIN(price)
+
+-- zad8
+
+match path=(:Airport{name:"LAX"})-[*1..7]-(dest:Airport{name:"DAY"}) with *, nodes(path) as n unwind n as pathNode match (ticket:Ticket{class:"business"})-[:ASSIGN]-(pathNode) with dest, n,collect(ticket) as tickets, sum(ticket.price) as price return MIN(price)
+
+-- zad9
+
+
+-- zad10
+
+match path=(:Airport)-[*2..3]-(dest:Airport) with *, nodes(path) as n unwind n as pathNode match (ticket:Ticket{class:"economy"})-[:ASSIGN]-(pathNode) with dest, n,collect(ticket) as tickets, sum(ticket.price) as price  return MIN(price)
